@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-RUN apk add --no-cache python3-dev py3-pip py3-wheel \
+RUN apk add --no-cache python3 py3-pip py3-wheel \
     && python3 -c "import pip"
 
 FROM alpine:edge
